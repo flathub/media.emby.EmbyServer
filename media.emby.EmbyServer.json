@@ -1,7 +1,7 @@
 {
     "app-id": "media.emby.EmbyServer",
     "runtime": "org.freedesktop.Platform",
-    "runtime-version": "20.08",
+    "runtime-version": "21.08",
     "sdk": "org.freedesktop.Sdk",
     "command": "media.emby.EmbyServer",
     "finish-args": ["--share=network", "--filesystem=host", "--device=dri"],
@@ -9,18 +9,18 @@
         {
             "name": "media.emby.EmbyServer",
             "buildsystem": "simple",
-            "build-commands": ["tar -xf emby-server-flatpak_4.6.7.0_${FLATPAK_ARCH}.tar.xz -C ${FLATPAK_DEST}"],
+            "build-commands": ["tar -xf emby-server-flatpak_4.7.6.0_${FLATPAK_ARCH}.tar.xz -C ${FLATPAK_DEST}"],
             "sources": [
                 {
                     "type": "file",
-                    "url": "https://github.com/MediaBrowser/Emby.Releases/releases/download/4.6.7.0/emby-server-flatpak_4.6.7.0_aarch64.tar.xz",
-                    "sha256": "7181be6c3538cc4063a5f057e2043eccf5f3f6f24ea14c61f72ed2760340b8cd",
+                    "url": "https://github.com/MediaBrowser/Emby.Releases/releases/download/4.7.6.0/emby-server-flatpak_4.7.6.0_aarch64.tar.xz",
+                    "sha256": "4123dafa59546d6e461fbb7aba9567e899faa7755450a85660ae5afd518f2d9d",
                     "only-arches": ["aarch64"]
                 },
                 {
                     "type": "file",
-                    "url": "https://github.com/MediaBrowser/Emby.Releases/releases/download/4.6.7.0/emby-server-flatpak_4.6.7.0_x86_64.tar.xz",
-                    "sha256": "fd76c09a6bb611e320c0cee94fa1789a2dd7d425cb13666d36bd00e37748bbb2",
+                    "url": "https://github.com/MediaBrowser/Emby.Releases/releases/download/4.7.6.0/emby-server-flatpak_4.7.6.0_x86_64.tar.xz",
+                    "sha256": "e92c30bed1108b3c3f4b292da4832c350614f9698721a769f9ddee5353caeece",
                     "only-arches": ["x86_64"]
                 }
             ]
