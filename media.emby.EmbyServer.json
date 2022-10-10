@@ -14,13 +14,13 @@
                 {
                     "type": "file",
                     "url": "https://github.com/MediaBrowser/Emby.Releases/releases/download/4.7.8.0/emby-server-flatpak_4.7.8.0_aarch64.tar.xz",
-                    "sha256": "d2492d45b0a3c0e2088784d3c6e5f695acac2f4433b68e2daf7a195aee422d7e",
+                    "sha256": "22e2145fdef5b2e2d86cc600df20fba983f13e1eb414bbd3cb74c219520b9f75",
                     "only-arches": ["aarch64"]
                 },
                 {
                     "type": "file",
                     "url": "https://github.com/MediaBrowser/Emby.Releases/releases/download/4.7.8.0/emby-server-flatpak_4.7.8.0_x86_64.tar.xz",
-                    "sha256": "e9be4022bb4f5944d128ba92cb03ecd2693b3c1d120a7d9435b564c2d91c0efb",
+                    "sha256": "fd5c7c4ff249c8515aea7c1c6f9dbcf3634075efa1ffec7cf3f53ff615e18822",
                     "only-arches": ["x86_64"]
                 }
             ]
