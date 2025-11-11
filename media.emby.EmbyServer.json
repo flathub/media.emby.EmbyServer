@@ -1,7 +1,7 @@
 {
     "app-id": "media.emby.EmbyServer",
     "runtime": "org.freedesktop.Platform",
-    "runtime-version": "24.08",
+    "runtime-version": "23.08",
     "sdk": "org.freedesktop.Sdk",
     "command": "media.emby.EmbyServer",
     "finish-args": ["--share=network", "--filesystem=host", "--device=dri"],
