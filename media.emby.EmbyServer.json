@@ -9,18 +9,18 @@
         {
             "name": "media.emby.EmbyServer",
             "buildsystem": "simple",
-            "build-commands": ["tar -xf emby-server-flatpak_4.9.3.0_${FLATPAK_ARCH}.tar.xz -C ${FLATPAK_DEST}"],
+            "build-commands": ["tar -xf emby-server-flatpak_4.9.5.0_${FLATPAK_ARCH}.tar.xz -C ${FLATPAK_DEST}"],
             "sources": [
                 {
                     "type": "file",
-                    "url": "https://github.com/MediaBrowser/Emby.Releases/releases/download/4.9.3.0/emby-server-flatpak_4.9.3.0_aarch64.tar.xz",
-                    "sha256": "8c83191c476c704dd9634cec57d8a052b4a17ed63be6128ed69f5bcf4a660cdd",
+                    "url": "https://github.com/MediaBrowser/Emby.Releases/releases/download/4.9.5.0/emby-server-flatpak_4.9.5.0_aarch64.tar.xz",
+                    "sha256": "c3a3df984f34c5fbfd345093642e621224940ef7dcbd89f8ff54299d61ac17a9",
                     "only-arches": ["aarch64"]
                 },
                 {
                     "type": "file",
-                    "url": "https://github.com/MediaBrowser/Emby.Releases/releases/download/4.9.3.0/emby-server-flatpak_4.9.3.0_x86_64.tar.xz",
-                    "sha256": "a02965908e606f78446188d4cbd4d17ec5dd570e76eac7bb0f18d9e85d9d254a",
+                    "url": "https://github.com/MediaBrowser/Emby.Releases/releases/download/4.9.5.0/emby-server-flatpak_4.9.5.0_x86_64.tar.xz",
+                    "sha256": "41add442316096d69607045d72e85c8cdf4c9a6f62120403860b074b5396bdac",
                     "only-arches": ["x86_64"]
                 }
             ]
